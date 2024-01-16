@@ -12,6 +12,6 @@ class literal
 
         char c = 'a';
         c++; // char treated as integer
-        System.out.println(c); 
+        System.out.println(c);
     }
 }
