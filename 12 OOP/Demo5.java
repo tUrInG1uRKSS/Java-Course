@@ -26,7 +26,7 @@ public class Demo5
         int num1 = 4;
         int num2 = 5;
 
-        // Calculator calc; // reference
+        // Calculator calc; // reference variable
         Calculator calc = new Calculator(); // creation of object
         int result = calc.add(num1,num2);
         System.out.println(result);
