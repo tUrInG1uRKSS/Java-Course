@@ -3,9 +3,9 @@ class Mobile
     String brand;
     int price;
     static String name; // common to all objects
-    // static: member of the class / no of the object
+    // static: member of the class / not of the object
     
-    static // this block is only called once no -  matter # objects created
+    static // this block is only called once - no matter #objects created
     {   
         name = "Phone";
         System.out.println("in static block");
@@ -34,14 +34,16 @@ class Mobile
 
 public class Demo12
 {
-    public static void main(String a[]) // main needs to be static
+    public static void main(String a[]) throws ClassNotFoundException // main needs to be static
     {
-        Mobile obj1 = new Mobile();
-        obj1.brand = "Apple";
-        obj1.price = 1500;
-        Mobile.name = "SmartPhone"; // call with class name
+        Class.forName("Mobile"); // only loading the class
 
-        Mobile obj2 = new Mobile();
+        // Mobile obj1 = new Mobile(); 
+        // obj1.brand = "Apple";
+        // obj1.price = 1500;
+        // Mobile.name = "SmartPhone"; // call with class name
+
+        // Mobile obj2 = new Mobile();
 
         // Mobile obj2 = new Mobile();
         // obj2.brand = "Samsung";
@@ -53,5 +55,7 @@ public class Demo12
         // obj2.show();
 
         // Mobile.show1(obj1); // indirect call of instance variables
+        // when creating an object:
+        // class load (once) & object is instantiated
     }
 }

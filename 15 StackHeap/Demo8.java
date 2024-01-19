@@ -17,11 +17,11 @@ public class Demo8
 {
     public static void main(String[] args) 
     {
-        int data = 10; // stack - key and value
+        // int data = 10; // stack - key and value
 
         Calculator obj = new Calculator();
         Calculator obj1 = new Calculator();
-        int r1 = obj.add(3, 4);
+        // int r1 = obj.add(3, 4);
         // System.out.println(r1);
 
         obj.num = 8; // is different from obj.num1 (another memory sapce)

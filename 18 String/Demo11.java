@@ -23,7 +23,7 @@ public class Demo11
         // String Buffer and String Builder
         StringBuffer sb = new StringBuffer("Navin"); 
         System.out.println(sb.capacity()); // buffer size = 16B
-        // store name and 16 space extra to avoid relocation
+        // store name and 16 extra space to avoid relocation
         System.out.println(sb.length());
 
         sb.append(" Reddy");
