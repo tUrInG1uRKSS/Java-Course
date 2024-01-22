@@ -38,7 +38,7 @@ public class Demo14
     public static void main(String a[]) 
     {
         // call constructor of sub and super class
-        B obj = new B(5); // instantiating
+        // B obj = new B(5); // instantiating
           
     }
 }
