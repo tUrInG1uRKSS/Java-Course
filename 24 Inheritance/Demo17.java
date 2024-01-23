@@ -1,14 +1,17 @@
+// Multiple inheritance don't work in Java
+
 public class Demo17 
 {
     public static void main(String a[])
     {
-        AdvCalc obj = new AdvCalc();
+        VeryAdvCalc obj = new VeryAdvCalc();
         int r1 = obj.add(4, 5);
         int r2 = obj.sub(7, 3);
-        int r3 = obj.sub(5, 3);
-        int r4 = obj.sub(15, 3);
+        int r3 = obj.multi(5, 3);
+        int r4 = obj.div(15, 3);
+        double r5 = obj.power(4, 2);
 
-        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4);
+        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
     }
     
 }
