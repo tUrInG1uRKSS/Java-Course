@@ -19,7 +19,7 @@ class C extends A
 
 public class Demo19 
 {
-    public static void main(String[] args) 
+    public static void main(String a[]) 
     {
         // ArrayList list = new ArrayList();
         
