@@ -1,4 +1,4 @@
-package tools;
+package other.tools;
 
 public class AdvCalc2 extends Calc2 
 {
