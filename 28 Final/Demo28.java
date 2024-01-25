@@ -13,10 +13,10 @@ class Calc // final class stops inheritance
 }
 class AdvCalc extends Calc
 {
-    public void show()
-    {
-        System.out.println("By Leandro");
-    }
+    // public void show()
+    // {
+    //     System.out.println("By Leandro");
+    // }
 }
 
 public class Demo28 
