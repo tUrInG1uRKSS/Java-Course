@@ -17,15 +17,23 @@ class B extends A
 }
 class C extends A
 {
-
+    public void show()
+    {
+        System.out.println("in C show");
+    }
 }
 
 public class Demo20 
 {
     public static void main(String a[]) 
     {
-        A obj = new B();
-        obj.show();        
+        A obj = new A();
+        obj.show();  
+
+        obj = new B();
+        obj.show();
+
+        obj = new C();
+        obj.show();
     }
-    
 }
